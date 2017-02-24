@@ -10,5 +10,9 @@ This is the Test from Escala to Front-end Developer
 * Go to the Folder: `cd wflistcards` 
 * Run: `npm install`
 * Run: `bower install`
-* Have fun: `ember s`
+* Run: `ember s`
+
+## Have Fun!
+
+`http://localhost:4200/cards`
 
