@@ -4,7 +4,7 @@ This is the Test from Escala to Front-end Developer
 
 ## How work?
 
-* Install Node.js [http://https://nodejs.org/]
+* Install Node.js [https://nodejs.org/]
 * Run in terminal: `npm install -g ember-cli`
 * `git clone https://github.com/danielpintscher/wflistcards.git`
 * Go to the Folder: `cd wflistcards` 
