@@ -1,27 +1,14 @@
-# Wflistcards
+# Will Fernandes :: List Cards
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is the Test from Escala to Front-end Developer
 
-## Prerequisites
+## How work?
 
-You will need the following things properly installed on your computer.
-
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
-
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd wflistcards`
-* `npm install`
-* `bower install`
-
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200/cards).
+* Install Node.js [http://https://nodejs.org/]
+* Run in terminal: `npm install -g ember-cli`
+* `git clone https://github.com/danielpintscher/wflistcards.git`
+* Go to the Folder: `cd wflistcards` 
+* Run: `npm install`
+* Run: `bower install`
+* Have fun: `ember s`
 
