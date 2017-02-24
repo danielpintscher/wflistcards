@@ -1,0 +1,26 @@
+<div class="row cards-list">
+{{#each cards as |card index|}}
+	<div class="col-md-4 cards-container">
+		<div class="cards">
+			<div class="card-header">
+				{{card.name}}
+			</div>
+			<div class="card-description">
+				<img src="{{card.owner.avatar_url}}">
+				<span>{{card.description}}</span>
+				<span>{{card.language}}</span>
+			</div>
+			<div class="card-info">
+				<p>
+					<span>Estrelas: {{card.stargazers_count}}</span>
+					<span>Problemas abertos: {{card.open_issues_count}}</span>
+				</p>
+				<p>
+					<span>Criado em: {{moment-format card.created_at 'DD/MM/YYYY'}}</span>
+					<span>Pushed em: {{moment-format card.pushed_at 'DD/MM/YYYY'}}</span>
+				</p>
+			</div>
+		</div>
+	</div>
+{{/each}}
+</div>

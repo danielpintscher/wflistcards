@@ -1,0 +1,72 @@
+body{
+	background-color: #efefef;
+}
+
+header{
+	color: #fff;
+	text-shadow: 2px 1px 1px rgba(0,0,0,0.5);
+	font-size: 40px;
+	font-weight: bold;
+	padding: 20px;
+	background: linear-gradient(#333, #555);
+}
+
+.filter{
+	padding: 10px;
+	margin-bottom: 20px;
+	background-color: #ccc;
+}
+
+.cards-list{
+}
+
+.cards-list > .cards-container > .cards{
+	background-color: #fff;
+	border-radius: 10px;
+	margin-right: 20px;
+	box-sizing: border-box;
+	font-size: 12px;
+	color: #404143;
+	font-weight: bold;
+	margin-bottom: 20px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.cards-list > .cards-container > .cards:hover{
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.cards-list > .cards-container > .cards:last-child{
+	margin-right: 0;
+}
+
+.cards-list > .cards-container > .cards > div span{
+	display: block;
+}
+
+.cards-list > .cards-container > .cards > .card-header{
+	display: table;
+	width: 100%;
+	padding: 20px;
+	background: linear-gradient(#ccc, #999);
+	font-size: 23px;
+}
+
+.cards-list > .cards-container > .cards > .card-info{
+	display: table;
+	width: 100%;
+	padding: 0 20px 20px;
+}
+
+.cards-list > .cards-container > .cards > .card-description{
+	display: table;
+	width: 100%;
+	padding: 20px;
+}
+
+.cards-list > .cards-container > .cards img{
+	float: left;
+	width: 80px;
+	margin-right: 20px; 
+}

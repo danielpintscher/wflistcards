@@ -1,0 +1,14 @@
+<header>
+	<div class="container">
+		Will Fernandes
+	</div>
+</header>
+<section class="filter">
+	<div class="filter-container container">
+		filtrar por: <a href="#" {{action 'ordenar' 'all'}}>Todos</a> | <a href="#" {{action 'ordenar' 'JavaScript'}}>JavaScript</a>
+		Ordenar por: <a href="#" {{action 'ordenar' 'nome'}}>Nome</a> | <a href="#" {{action 'ordenar' 'star'}}>Estrelas</a>
+	</div>
+</section>
+<section class="container">
+	{{cards-list cards=filtredModel}}
+</section>
